@@ -8,6 +8,7 @@
 
 
 ### History
+- 2019/02/21 [Server-Sent Events in Spring](https://www.baeldung.com/spring-server-sent-events)
 - 2018/10/16 [Go言語でServerSentEvents(SSE)](https://qiita.com/taqm/items/e132a1aa55690a22b655)
 - 2018/09/23 [Using NodeJS for uni-directional event streaming (SSE)](https://medium.com/@moinism/using-nodejs-for-uni-directional-event-streaming-sse-c80538e6e82e)
 - 2018/08/29 [**Getting to know Server-Sent Events (SSE)**](https://www.scaledrone.com/blog/getting-to-know-server-sent-events-sse/)
