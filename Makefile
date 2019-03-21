@@ -1,22 +1,24 @@
 #
 # Makefile for sse by Stoney
 #
-EDITOR=vi
+EDIT=vi
+PROG=sse
 all: usage
 usage:
 	@echo "usage: make [edit|run|git]"
 # ---------------------------------------------------------------------------
 edit e:
-	@echo "make (edit) [make|readme|peer|web|flutter|blockchain|study]"
-
-edit-readme er:
-	$(EDITOR) README.md
+	@echo "make (edit) [make|readme|go]"
 
 edit-make em:
-	$(EDITOR) Makefile
+	$(EDIT) Makefile
 
+edit-readme er:
+	$(EDIT) README.md
+
+edit-go  eg:
+	$(EDIT) sse.go
 # ---------------------------------------------------------------------------
-PROG=sse
 build b:
 	go build -o $(PROG) $(PROG).go
 
@@ -43,10 +45,10 @@ git g:
 
 git-update gu:
 	git add *.md Makefile go.* *.go
-	git commit -m "initial commit"
+	#git commit -m "initial commit"
 	#git remote remove Flutter.md
 	#git commit -m "add some new Database.md"
-	#git commit -m "add updates of *.md"
+	git commit -m "update contents"
 	git push
 
 git-login gl:
