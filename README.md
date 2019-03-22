@@ -6,6 +6,7 @@ High level comparison of Short/Long polling and SSE
 
 ### Information
 - [wiki/Server-sent event](https://en.wikipedia.org/wiki/Server-sent_events)
+- HTML5 Living Standard: [9.2 Server-sent events](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events)
 - [Using server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events)
 - [Server-sent events](https://developer.mozilla.org/ko/docs/Web/API/Server-sent_events)
 - [SSE (Server-Sent Events)](https://ktor.io/samples/other/sse.html)
