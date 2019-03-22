@@ -1,6 +1,6 @@
 ## Server Sent Event (SSE)
 
-![Comparison](image/compare.png)
+![Comparison](static/compare.png)
 
 
 ### Information
