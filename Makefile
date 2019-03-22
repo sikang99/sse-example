@@ -44,7 +44,7 @@ git g:
 	@echo ""
 
 git-update gu:
-	git add *.md Makefile go.* *.go
+	git add *.md Makefile static/ go.* *.go
 	#git commit -m "initial commit"
 	#git remote remove Flutter.md
 	#git commit -m "add some new Database.md"
