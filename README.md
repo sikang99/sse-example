@@ -1,6 +1,6 @@
 ## Server Sent Event (SSE)
 
-![Comparison](static/compare.png)
+![Comparison](static/compare.png){width=70%}
 
 
 ### Information
