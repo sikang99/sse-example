@@ -2,7 +2,6 @@
 # Makefile for sse by Stoney, sikang99@gmail.com
 #
 EDIT=vi
-PROG=sse
 all: usage
 usage:
 	@echo "usage: make [edit|build|run|git]"
@@ -15,28 +14,6 @@ edit-make em:
 
 edit-readme er:
 	$(EDIT) README.md
-
-edit-go  eg:
-	$(EDIT) sse.go
-# ---------------------------------------------------------------------------
-build b:
-	go build -o $(PROG) $(PROG).go
-
-run r:
-	@echo "make (run) [server|client|web]"
-
-run-server rs:
-	go run $(PROG).go
-	#./$(PROG)
-
-run-client rc:
-	curl http://localhost:3000
-
-run-web rw:
-	xdg-open http://localhost:3000
-
-clean:
-	rm -f $(PROG)
 # ---------------------------------------------------------------------------
 git g:
 	@echo ""
@@ -44,7 +21,7 @@ git g:
 	@echo ""
 
 git-update gu:
-	git add *.md Makefile static/ go.* *.go
+	git add *.md Makefile static/ period/ ascii/
 	#git commit -m "initial commit"
 	#git remote remove Flutter.md
 	#git commit -m "add some new Database.md"
