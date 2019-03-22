@@ -1,11 +1,11 @@
 #
-# Makefile for sse by Stoney
+# Makefile for sse by Stoney, sikang99@gmail.com
 #
 EDIT=vi
 PROG=sse
 all: usage
 usage:
-	@echo "usage: make [edit|run|git]"
+	@echo "usage: make [edit|build|run|git]"
 # ---------------------------------------------------------------------------
 edit e:
 	@echo "make (edit) [make|readme|go]"
