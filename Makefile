@@ -23,9 +23,9 @@ git g:
 git-update gu:
 	git add *.md Makefile static/ period/ ascii/
 	#git commit -m "initial commit"
-	#git remote remove Flutter.md
-	#git commit -m "add some new Database.md"
-	git commit -m "update contents"
+	git remote remove go.mod sse.go
+	#git commit -m "add examples"
+	#git commit -m "update contents"
 	git push
 
 git-login gl:
