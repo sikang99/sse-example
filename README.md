@@ -6,6 +6,7 @@
 - [Server-sent events](https://developer.mozilla.org/ko/docs/Web/API/Server-sent_events)
 - [SSE (Server-Sent Events)](https://ktor.io/samples/other/sse.html)
 - CanIUse: [Server-sent events](https://caniuse.com/#feat=eventsource)
+- WebRTC Glossary: [SSE](https://webrtcglossary.com/sse/)
 
 
 ### History
