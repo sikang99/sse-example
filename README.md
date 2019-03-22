@@ -1,6 +1,6 @@
 ## Server Sent Event (SSE)
 
-![Comparison](static/compare.png, High level comparison of Short/Long polling and SSE)
+![Comparison](static/compare.png, "High level comparison of Short/Long polling and SSE")
 
 
 ### Information
