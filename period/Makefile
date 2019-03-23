@@ -14,7 +14,7 @@ edit-make em:
 	$(EDIT) Makefile
 
 edit-go  eg:
-	$(EDIT) sse.go
+	$(EDIT) $(PROG).go
 # ---------------------------------------------------------------------------
 build b:
 	go build -o $(PROG) $(PROG).go

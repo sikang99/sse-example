@@ -143,11 +143,12 @@ func main() {
 		for {
 			time.Sleep(time.Second * 2)
 			eventString := fmt.Sprintf("the time is %v", time.Now())
-			log.Println("Receiving event")
+			log.Println("Ready to receive events")
 			broker.Notifier <- []byte(eventString)
 		}
 	}()
 
+	log.Println("Connect to http://localhost:3000")
 	log.Fatal("HTTP server error: ", http.ListenAndServe("localhost:3000", broker))
 
 }

@@ -27,6 +27,8 @@ func main() {
 		log.Println(err)
 		return
 	}
+
+	log.Println("http://localhost:8080")
 	http.HandleFunc("/", mainHandler)
 	http.HandleFunc("/sse", sseHandler)
 	s := http.Server{

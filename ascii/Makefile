@@ -8,6 +8,9 @@ usage:
 edit e:
 	vi $(PROG).go
 
+edit-html eh:
+	vi index.html
+
 build b:
 	go build -o $(PROG) $(PROG).go
 
@@ -19,10 +22,10 @@ run-server rs:
 	#./$(PROG)
 
 run-client rc:
-	curl http://localhost:3000
+	curl http://localhost:8080/sse
 
 run-web rw:
-	xdg-open http://localhost:3000
+	xdg-open http://localhost:8080
 
 clean:
 	rm -f $(PROG)
