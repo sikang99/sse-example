@@ -1,3 +1,3 @@
-module github.com/fiorix/go-web/httpxtra
+module httpxtra
 
 go 1.12
