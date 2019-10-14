@@ -13,6 +13,7 @@ High level comparison of Short/Long polling and SSE
 - [SSE (Server-Sent Events)](https://ktor.io/samples/other/sse.html)
 - CanIUse: [Server-sent events](https://caniuse.com/#feat=eventsource)
 - WebRTC Glossary: [SSE](https://webrtcglossary.com/sse/)
+- Web API: [EventSource](https://developer.mozilla.org/ko/docs/Web/API/EventSource)
 
 
 ### History
