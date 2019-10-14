@@ -20,6 +20,7 @@ High level comparison of Short/Long polling and SSE
 - 2019/00/00
 - 2018/10/16 [Go言語でServerSentEvents(SSE)](https://qiita.com/taqm/items/e132a1aa55690a22b655)
 - 2018/09/26 [Understanding Server-Sent Events](https://kaazing.com/kaazing.io/doc/understanding-server-sent-events/)
+- 2018/09/25 [Server Sent Events in go](https://medium.com/coding2fun/server-sent-events-in-go-f32d963006c6)
 - 2018/09/23 [Using NodeJS for uni-directional event streaming (SSE)](https://medium.com/@moinism/using-nodejs-for-uni-directional-event-streaming-sse-c80538e6e82e)
 - 2018/08/29 [**Getting to know Server-Sent Events (SSE)**](https://www.scaledrone.com/blog/getting-to-know-server-sent-events-sse/)
 - 2018/08/01 [**Polling vs SSE vs WebSocket— How to choose the right one**](https://codeburst.io/polling-vs-sse-vs-websocket-how-to-choose-the-right-one-1859e4e13bd9)
@@ -34,3 +35,4 @@ High level comparison of Short/Long polling and SSE
 - [alexandrevicenzi/go-sse](https://github.com/alexandrevicenzi/go-sse) - Server-Sent Events for Go
 - [julienschmidt/sse](https://github.com/julienschmidt/sse) - HTML5 Server-Sent-Events for Go 
 - [ismasan/sse.go](https://gist.github.com/ismasan/3fb75381cd2deb6bfa9c) - Example SSE server in Golang
+- [r3labs/sse](https://github.com/r3labs/sse) - Server Side Events server and client for Golang
